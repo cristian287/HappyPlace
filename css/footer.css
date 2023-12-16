@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  backdrop-filter: blur(10px) invert(10%);
+  box-shadow: inset 0 0 10px 1px yellow, 1px 1px 130px 10px black;
+}
+@media (min-width: 1024px) {
+  .footer {
+    justify-content: space-around;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1920px) {
+  .footer {
+    font-size: 2rem;
+  }
+}
